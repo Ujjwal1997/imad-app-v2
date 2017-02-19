@@ -8,8 +8,8 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-apt.get('/article-one',function(req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-one.html')); 
+apt.get('/article-one',function(req, res){
+   res.send('Article-two is requested');
 });
 apt.get('/article-two',function(req,res){
    res.send('Article-two is requested'); 
