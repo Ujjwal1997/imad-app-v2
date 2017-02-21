@@ -23,12 +23,13 @@ ul li a{
 }
 
 
+
 ul li{
     float:left;
     width:100px;
-    height:60px;
-    font-size:18px;
-    text-align:center;
+    height:40px;
+    font-size:15px;
+    text-align:left;
 }
 
 ul li a:hover{
