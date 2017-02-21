@@ -24,7 +24,7 @@ ul li a{
 
 
 ul li{
-    float:none;
+    float:left;
     width:100px;
     height:60px;
     font-size:20px;
