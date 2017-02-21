@@ -4,6 +4,35 @@ body {
     margin-top: 75px;
 }
 
+    
+ul{
+    margin:0;
+    padding:0;
+
+}
+
+ul li a{
+    text-decoration : none;
+    display:block;
+}
+
+
+
+ul li{
+    float:left;
+    width:100px;
+    height:40px;
+    font-size:15px;
+    text-align:left;
+}
+
+ul li a:hover{
+    background-color:grey;
+}
+
+
+
+
 
 
 
@@ -13,22 +42,3 @@ body {
 
 
     
-  .minu{  
-
-    margin:0;
-    padding:0;
-
-    text-decoration : none;
-    display:block;
-
-    float:left;
-    width:100px;
-    height:40px;
-    font-size:15px;
-    text-align:left;
-
-    background-color:grey;
-}
-
-
-
