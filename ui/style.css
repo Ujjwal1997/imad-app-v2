@@ -11,20 +11,23 @@ body {
     height: 200px;
 }
 
-ul{
+
+    
+    
+.ul{
     margin:0;
     padding:0;
 
 }
 
-ul li a{
+.ul li a{
     text-decoration : none;
     display:block;
 }
 
 
 
-ul li{
+.ul li{
     float:left;
     width:100px;
     height:40px;
@@ -32,8 +35,10 @@ ul li{
     text-align:left;
 }
 
-ul li a:hover{
+.ul li a:hover{
     background-color:grey;
 }
+
+
 
 
