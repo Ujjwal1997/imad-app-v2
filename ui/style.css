@@ -4,9 +4,42 @@ body {
     margin-top: 75px;
 }
 
-.center {
-    text-align: center;
+.logo {
+    height:50px;
+    padding-right : 10px;
+    padding-left : 50px;
+    
 }
+
+.nav_bar{
+    height :150px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+.quick_bar{
+    font-size:100%;
+    
+}
+
+.p1{
+      height :500px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size : 50%;
+    background-color:lightgreen;
+    text-align:center;
+}
+.section1{
+	height : 290px;
+	background-color:lightgrey;
+	text-align:center;
+	font-family:italic;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right:50px;
+}
+
 
 .text-big {
     font-size: 300%;
