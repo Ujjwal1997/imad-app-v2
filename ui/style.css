@@ -13,32 +13,23 @@ body {
 
 
     
-    
-.ul{
+  .minu{  
+
     margin:0;
     padding:0;
 
-}
-
-.ul li a{
     text-decoration : none;
     display:block;
-}
 
-
-
-.ul li{
     float:left;
     width:100px;
     height:40px;
     font-size:15px;
     text-align:left;
-}
 
-.ul li a:hover{
+
     background-color:grey;
 }
-
 
 
 
