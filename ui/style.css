@@ -21,6 +21,11 @@ a:link,a:visted{
 	height:auto;
 	margin:2%;
 }
+.logo{
+    width:50%;
+    height:auto;
+    margin:0 auto;
+}
 
 .main-header nav{
 	background-color: #808080;
