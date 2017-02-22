@@ -19,7 +19,7 @@ a:link,a:visted,a:hover{
 .main-header img{
 	width:30%;
 	height:auto;
-	margin:2%;
+	margin:0 auto;
 }
 .logo{
     width:100px;
