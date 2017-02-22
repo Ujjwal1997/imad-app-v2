@@ -11,8 +11,12 @@ app.get('/', function (req, res) {
 });
 
 app.get('/poetry', function (req, res) {
-  res.send('Poetry page');
+  res.sendFile(path.join(__dirname, 'ui', 'poetry.html'));
 });
+app.get('/movies', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'movies.html'));
+});
+
 
 app.get('/Lifestyle', function (req, res) {
   res.send('Lifestyle page');
