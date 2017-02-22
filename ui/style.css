@@ -4,6 +4,7 @@ body{
 	font-size:16px;
 	line-height:1.5;
 	text-align:center;
+	
 }
 a:link,a:visted{
 	color:#4169e1;
@@ -24,6 +25,7 @@ a:link,a:visted{
 	background-color: #808080;
 	height:40px;
 	border-radius:5px;
+	-moz-border-radius:5px;
 }
 .main-hjeader nav ul{
 	list-style:none;
