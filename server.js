@@ -13,20 +13,20 @@ app.get('/', function (req, res) {
 app.get('/ui/poetry', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'poetry.html'));
 });
-app.get('/movies', function (req, res) {
+app.get('/ui/movies', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'movies.html'));
 });
 
 
-app.get('/Lifestyle', function (req, res) {
+app.get('/ui/Lifestyle', function (req, res) {
   res.send('Lifestyle page');
 });
 
-app.get('/Relationship', function (req, res) {
+app.get('/ui/Relationship', function (req, res) {
   res.send('Relationship page');
 });
 
-app.get('/technology', function (req, res) {
+app.get('/ui/technology', function (req, res) {
   res.send('technology');
 });
 
