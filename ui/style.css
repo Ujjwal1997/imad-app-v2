@@ -6,13 +6,12 @@ body{
 	text-align:center;
 	
 }
-a:link,a:visted{
-	color:#4169e1;
+a:link,a:visted,a:hover{
+	color:#999;
 }
     
 
 .body{
-    font-family:arial,sans-serif;
 	margin : 0 auto;
 	width : 70%;
 	clear : both;
@@ -31,7 +30,6 @@ a:link,a:visted{
 .main-header nav{
 	background-color: #808080;
 	height:40px;
-	padding:3%;
 	border-radius:5px;
 }
 .main-header nav ul{
@@ -47,6 +45,7 @@ a:link,a:visted{
 .main-header nav a:link{
 	color:blue;
 	display:inline-block;
+	padding:10px 20px;
 	height:20px;
 	}
 .main-header nav a:hover{
@@ -62,7 +61,7 @@ a:link,a:visted{
 	text-shadow: none;
 }
 
-.main-header nav .active a:visted{
+.main-header nav .active a:link{
 	background-color:#CF5C3F;
 	text-shadow: none;	
 }
