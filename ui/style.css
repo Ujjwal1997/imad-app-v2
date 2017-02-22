@@ -9,12 +9,8 @@ body{
 a:link,a:visted{
 	color:#4169e1;
 }
-.image{
-    width:30%;
-    height:auto;
-    margin:2%;
     
-}
+
 .body{
 	margin : 0 auto;
 	width : 70%;
