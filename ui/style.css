@@ -79,8 +79,11 @@ a:link,a:visted{
 	margin:2% 0 2% 0;
 }
 .imgage{
-    width:80%;
+    width:90%;
     margin:0 auto;
+}
+.video{
+    width:90%;
 }
 .bottom-content{
 	background-color:#FFF;
