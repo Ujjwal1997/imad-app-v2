@@ -78,9 +78,9 @@ a:link,a:visted{
 	padding:3% 5%;
 	margin:2% 0 2% 0;
 }
-.top-content  img{
-    width:90%;
-    margin:2%;
+.imgage{
+    width:80%;
+    margin:0 auto;
 }
 .bottom-content{
 	background-color:#FFF;
