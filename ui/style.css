@@ -30,7 +30,8 @@ a:link,a:visted{
 
 .main-header nav{
 	background-color: #808080;
-
+	height:40px;
+	padding:10px;
 	border-radius:5px;
 }
 .main-header nav ul{
