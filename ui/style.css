@@ -69,15 +69,22 @@ a:link,a:visted,a:hover{
 .main-header nav ul li a {
 	border-radius:5px;
 }
-.menu{
-    position:relative;
-    display:inline-block;
-    
-}
-.menu-bar{
+.down-menu{
     display:none;
     position:absolute;
-    
+    background-color:#CF5C3F;
+}
+.down-menu li{
+    float:left;
+	display:block;
+	margin-top:0 auto;
+}
+.down-menu  li a{
+    border-radius:4px;
+}
+
+.down-menu a:hover{
+    background-color:#f1f1f1;
 }
 
 .main-content{
