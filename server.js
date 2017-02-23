@@ -17,7 +17,7 @@ app.get('/ui/movies', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'movies.html'));
 });
 
-var couter=0;
+var counter=0;
 apt.get('/counter', function(req,res){
    counter = counter +1;
    res.send(counter.toString());
