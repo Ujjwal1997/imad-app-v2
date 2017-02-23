@@ -86,7 +86,7 @@ a:link,a:visted,a:hover{
 .down-menu a:hover{
     background-color:#f1f1f1;
 }
-.main-header nav ul li:hover .down-menu{
+.main-header :hover .down-menu{
     display:block;
 }
 
