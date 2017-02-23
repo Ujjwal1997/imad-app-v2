@@ -18,6 +18,7 @@ app.get('/ui/movies', function (req, res) {
 });
 
 
+
 app.get('/ui/Lifestyle', function (req, res) {
   res.send('Lifestyle page');
 });
