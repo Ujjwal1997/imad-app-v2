@@ -1,3 +1,8 @@
+body{
+    width:100%;
+    background-image:url("\ui\images.jpeg");
+}
+
 main-body{
 	background-color:#C0C0C0;
 	font-family:Arial;
