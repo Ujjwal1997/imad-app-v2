@@ -8,7 +8,12 @@ body{
 a:link,a:visted,a:hover{
 	color:#999;
 }
+.name{
+    font-size:15px;
+    font-style:italic;
+    color:#999;
     
+}
 
 .body{
 	margin : 0 auto;
