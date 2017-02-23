@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-var myname = getElementById('name');
+var myname = document.getElementById('name');
 
 var marginleft = 0;
 function moveleft(){
