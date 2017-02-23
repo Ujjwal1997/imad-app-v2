@@ -4,14 +4,13 @@ main-body{
 	font-size:16px;
 	line-height:1.5;
 	text-align:center;
-	
 }
 a:link,a:visted,a:hover{
 	color:#999;
 }
     
 
-.body{
+.main-body{
 	margin : 0 auto;
 	width : 70%;
 	clear : both;
