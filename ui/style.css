@@ -5,48 +5,44 @@ body{
 	line-height:1.5;
 	text-align:center;
 }
-a:link,a:visted,a:hover{
-	color:#999;
+a:link,a:visted{
+	color:#4169e1;
 }
-.name{
-    font-size:15px;
-    font-style:italic;
-    color:#999;
-    
+a:hover,a:active{
+
+}
+.header-image{
+	width : 20%;
+	height:15%;
+	padding:10px;
+	margin-right:80%;
 }
 
 .body{
 	margin : 0 auto;
-	width : 100%;
+	width : 70%;
 	clear : both;
 }
 .main-header img{
-	width:100%;
+	width:30%;
 	height:10%;
-	margin:0 auto;
-}
-/*
-.logo{
-    width:100%;
-    height:100px;
-    background-image: url("\ui\images.jpeg");
-    
-    margin:0 auto;
+	margin:2%;
 }
 
 .main-header nav{
 	background-color: #808080;
 	height:40px;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 }
-.main-header nav ul{
+.main-hjeader nav ul{
 	list-style:none;
 	margin:0 auto;
 	}
 .main-header nav ul li{
 	float:left;
-	display:block;
-	margin-top:0 auto;
+	display:inline;
 }
 
 .main-header nav a:link{
@@ -68,38 +64,23 @@ a:link,a:visted,a:hover{
 	text-shadow: none;
 }
 
-.main-header nav .active a:link{
+.main-header nav .active a:visted{
 	background-color:#CF5C3F;
 	text-shadow: none;	
 }
 
-.main-header nav ul li a {
+main-header nav ul li a {
 	border-radius:5px;
-}
-.down-menu{
-    display:none;
-    position:absolute;
-    background-color:#CF5C3F;
-}
-.down-menu li{
-    float:left;
-	display:block;
-	margin-top:0 auto;
-}
-.down-menu  li a{
-    border-radius:4px;
-}
-
-.down-menu a:hover{
-    background-color:#f1f1f1;
-}
-.main-header li :hover .down-menu{
-    display:block;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 }
 
 .main-content{
 	line-height:25px;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
+
 }
 .content{
 	width:70%;
@@ -108,19 +89,17 @@ a:link,a:visted,a:hover{
 .top-content{
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	padding:3% 5%;
 	margin:2% 0 2% 0;
 }
-.imgage{
-    width:90%;
-    margin:0 auto;
-}
-.video{
-    width:90%;
-}
+
 .bottom-content{
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	padding:3% 5%;
 	margin:2% 0 2% 0;
 }
@@ -130,6 +109,8 @@ a:link,a:visted,a:hover{
 	float:left;
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	margin:2% 0 2% 3%;
 	padding:2% 3%;
 }
@@ -139,6 +120,8 @@ a:link,a:visted,a:hover{
 	float:left;
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	margin-left:3%;
 	margin-bottom:2%;
 	padding:2% 3%;
@@ -148,6 +131,8 @@ a:link,a:visted,a:hover{
 	float:left;
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	margin-left:3%;
 	margin-bottom:2%;
 	padding:2% 3%;
@@ -159,6 +144,8 @@ a:link,a:visted,a:hover{
 	float:left;
 	background-color:#666;
 	border-radius:5px;
+	-moz-border-radius:5px;	
+	-webkit-border-radius:5px;
 	margin:2% 0;
 }
 
@@ -173,11 +160,6 @@ a:link,a:visted,a:hover{
 	font-style: italic;
 	color:#999;
 	font-size:90%;
-}
-
-.image{
-    width:90%;
-    margin:0 auto;
 }
 
 
@@ -208,6 +190,7 @@ a:link,a:visted,a:hover{
 	.main-header nav a:link{
 		color:blue;
 		display:block;
+		padding:10px 20px;
 		height:20px;
 	
 		}
@@ -237,7 +220,7 @@ a:link,a:visted,a:hover{
 		float:left;
 		background-color:#FFF;
 		margin:2% 0 2% 0;
-
+		padding:2% 3%;
 		}
 
 	.middle-sidebar{
@@ -245,12 +228,14 @@ a:link,a:visted,a:hover{
 		float:left;
 		background-color:#FFF;
 		margin:2% 0 2% 0;
+		padding:2% 3%;
 	}
 	.bottom-sidebar{
 		width:94%;
 		float:left;
 		background-color:#FFF;
 		margin:2% 0 2% 0;
+		padding:2% 3%;
 	}
 
 	.sub-header{
@@ -259,6 +244,7 @@ a:link,a:visted,a:hover{
 
 	}
 
-*/
+
+
 
 
