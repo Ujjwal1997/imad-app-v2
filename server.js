@@ -3,6 +3,19 @@ var morgan = require('morgan');
 var path = require('path');
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 var app = express();
 app.use(morgan('combined'));
 
@@ -13,20 +26,20 @@ app.get('/', function (req, res) {
 app.get('/ui/poetry.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'poetry.html'));
 });
-app.get('/ui/movies', function (req, res) {
+app.get('/ui/movies.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'movies.html'));
 });
 
 
-app.get('/ui/Lifestyle', function (req, res) {
+app.get('/ui/Lifestyle.html', function (req, res) {
   res.send('Lifestyle page');
 });
 
-app.get('/ui/Relationship', function (req, res) {
+app.get('/ui/Relationship.html', function (req, res) {
   res.send('Relationship page');
 });
 
-app.get('/ui/technology', function (req, res) {
+app.get('/ui/technology.html', function (req, res) {
   res.send('technology');
 });
 
