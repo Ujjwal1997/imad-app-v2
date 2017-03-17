@@ -12,6 +12,6 @@ var counter = document.getElementById('counter');
 counter.Onclick = function() {
     counter = counter + 1;
     var span = document.getElementById('count');
-    span.InnerHtml = counter;
+    span.innerHtml = counter;
     
 };
