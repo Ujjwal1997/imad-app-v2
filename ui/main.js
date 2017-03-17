@@ -1,10 +1,10 @@
 console.log('Loaded!');
 
-var img = document.getElementById("madi");
+var img = document.getElementById('madi');
 
 
 img.Onclick = function() {
-    img.style.marginleft = "100px";
+    img.style.marginleft = '100px';
 };
 
 
