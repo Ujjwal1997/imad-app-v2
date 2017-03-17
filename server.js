@@ -43,9 +43,6 @@ app.get('/ui/valentine.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'valentine.png'));
 });
 
-app.get('/ui/poetry.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'poetry.html'));
-});
 
 
 app.get('/ui/main.js', function (req, res) {
