@@ -7,10 +7,11 @@ img.Onclick = function() {
     img.style.marginleft = '100px';
 };
 
-var counter = document.getElementById('counter');
+var button = document.getElementById('counter');
 
-counter.Onclick = function() {
+button.Onclick = function() {
     counter = counter + 1;
+    
     var span = document.getElementById('count');
     span.innerHTML = counter.toString();
     
