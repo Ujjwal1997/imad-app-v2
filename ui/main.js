@@ -3,6 +3,7 @@ console.log('Loaded!');
 var img = document.getElementById('madi');
 
 var counter = 0;
+
 img.Onclick = function() {
     img.style.marginleft = '100px';
 };
